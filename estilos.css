@@ -1,0 +1,7 @@
+.mainNavBar{
+    background-color: rgb(0, 0, 0);
+}
+.mainNavBar nav div a{
+    color: white;
+    text-decoration: underline;
+}
