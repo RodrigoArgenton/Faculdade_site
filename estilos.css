@@ -1,13 +1,42 @@
+:root{
+    --bg-color-red: #E41C24;
+    --bg-color-black: #000000;
+    --bd-color-gray: #212529;
+}
+#backgroundHome{
+    background-image: url('/image/background.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: 100% auto;  
+}
+.titleBackgroundHome{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.titleBackgroundHome p{
+    max-width: 40%;
+}
+.nameCompany{
+    color: var(--bg-color-red);
+}
 .navbar-nav {
     display: flex;
     justify-content: center;
 }
 #comments{
-    background-color: black;
+    background-color: var(--bd-color-gray);
     padding: 50px;
 }
+.card-subtitle{
+    color: var(--bg-color-red) !important;
+}
 #titleComments{
-    color: white;
+    color: var(--bg-color-red);
     text-align: center;
     padding-bottom: 50px;
 }
@@ -23,6 +52,19 @@
 .card{
     align-items: center;
 }
-.card-body{
-    align-items: center !important;
+.card-title{
+    text-align: center;
+}
+#cardPlans{
+    padding: 50px;
+}
+.btn{
+    background-color: var(--bg-color-red);
+    color: var(--bg-color-black);
+    font-weight: bold;
+}
+.titleCardPlans{
+    color: var(--bg-color-red);
+    text-align: center;
+    padding-bottom: 50px;
 }
