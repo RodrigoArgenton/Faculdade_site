@@ -16,3 +16,13 @@
     justify-content: center;
     padding-bottom: 10px;
 }
+.card-img-top{
+    max-width: 100px;
+    max-height: 100px;
+}
+.card{
+    align-items: center;
+}
+.card-body{
+    align-items: center !important;
+}
