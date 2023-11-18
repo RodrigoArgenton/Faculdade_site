@@ -1,7 +1,7 @@
 :root{
     --bg-color-red: #E41C24;
     --bg-color-black: #000000;
-    --bd-color-gray: #212529;
+    --bd-color-gray: #212529; 
 }
 #backgroundHome{
     background-image: url('/image/background.jpg');
@@ -57,6 +57,7 @@
 }
 #cardPlans{
     padding: 50px;
+    background-color: var(--bd-color-gray);
 }
 .btn{
     background-color: var(--bg-color-red);
@@ -67,4 +68,20 @@
     color: var(--bg-color-red);
     text-align: center;
     padding-bottom: 50px;
+}
+.carousel{
+    max-width: 60%;
+}
+.carousel-inner{
+    padding: 50px;
+}
+#presentation .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#titlePresentation h2{
+    padding-top: 50px;
+    color: var(--bg-color-red);
+    font-weight: bold;
 }
