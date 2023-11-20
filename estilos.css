@@ -1,13 +1,13 @@
 :root{
     --bg-color-red: #E41C24;
     --bg-color-black: #000000;
-    --bd-color-gray: #212529; 
+    --bd-color-gray: #F0EEF3; 
 }
 #backgroundHome{
     background-image: url('/image/background.jpg');
     width: 100%;
     height: 100vh;
-    background-size: 100% auto;  
+    background-size: 100% auto;
 }
 .titleBackgroundHome{
     width: 100%;
@@ -29,14 +29,13 @@
     justify-content: center;
 }
 #comments{
-    background-color: var(--bd-color-gray);
     padding: 50px;
+    border-bottom: 1px var(--bg-color-black) solid;
 }
 .card-subtitle{
     color: var(--bg-color-red) !important;
 }
 #titleComments{
-    color: var(--bg-color-red);
     text-align: center;
     padding-bottom: 50px;
 }
@@ -58,6 +57,7 @@
 #cardPlans{
     padding: 50px;
     background-color: var(--bd-color-gray);
+    border-bottom: 1px var(--bg-color-black) solid;
 }
 .btn{
     background-color: var(--bg-color-red);
@@ -70,10 +70,13 @@
     padding-bottom: 50px;
 }
 .carousel{
-    max-width: 60%;
+    max-width: 80%;
 }
 .carousel-inner{
     padding: 50px;
+}
+#presentation{
+    border-bottom: 1px var(--bg-color-black) solid;
 }
 #presentation .container{
     display: flex;
@@ -84,4 +87,32 @@
     padding-top: 50px;
     color: var(--bg-color-red);
     font-weight: bold;
+}
+#questions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: var(--bd-color-gray);
+    border-bottom: 1px var(--bg-color-black) solid;
+}
+#questions .conteiner{
+    max-width: 60%;
+}
+#titleQuestions{
+    color: var(--bg-color-red);
+    text-align: center;
+    padding-bottom: 50px;
+}
+.mainNavFooter{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    color: var(--bg-color-red);
+}
+#team{
+    padding: 50px;
+    border-bottom: 1px var(--bg-color-black) solid;
 }
