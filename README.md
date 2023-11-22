@@ -24,3 +24,5 @@ Você deverá criar uma página de um produto escolhido por você que atenda aos
 É permitida a utilização de Frameworks para o desenvolvimento dessa atividade (Aula 08). Consulte os exemplos na página 2.
 
 Você deverá compactar todos os arquivos da sua página em um .zip e enviar pela plataforma.
+
+[Clique aqui para acessar o site](https://rodrigoargenton.github.io/Faculdade_site/)
