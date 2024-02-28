@@ -1,7 +1,7 @@
-# Exercicio de html e css da disciplina Desenvolvimento Web
+# Exercicio de html e css da disciplina de Desenvolvimento Web
 
 ## Objetivo:
-Você deverá criar uma página de um produto escolhido por você que atenda aos aspectos abaixo. 
+Criar uma página de um produto escolhido por você que atenda aos aspectos abaixo. 
 
 * Uma landing page
 * Tipo One-page;
@@ -21,8 +21,6 @@ Você deverá criar uma página de um produto escolhido por você que atenda aos
 * Apropriada;
 * Apelativa.
 
-É permitida a utilização de Frameworks para o desenvolvimento dessa atividade (Aula 08). Consulte os exemplos na página 2.
+É permitida a utilização de Frameworks para o desenvolvimento dessa atividade.
 
-Você deverá compactar todos os arquivos da sua página em um .zip e enviar pela plataforma.
-
-[Clique aqui para acessar o site](https://rodrigoargenton.github.io/Faculdade_site/)
+[Clique aqui para acessar o resultado final do site](https://rodrigoargenton.github.io/Faculdade_site/)
